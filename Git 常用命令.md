@@ -16,4 +16,4 @@ git push -u origin master 的完全版为 git push --set-upstream origin master�
    在命令行中，单杠-后面接的是缩写，双杠--后面要接全称
 3. **在 GitHub 中，markdonw文件里的公式不能正常显示怎么办？**
    在 Google Chrome 中添加插件(https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima/related)
-4. 
+4. **当本地与远程仓库冲突时，如何合并** 先 `git pull`，然后手动在代码中进行修改，然后 `git push`。其中 `git pull` 相当于`git fetch`+`git merge`。
